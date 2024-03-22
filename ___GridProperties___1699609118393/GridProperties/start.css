@@ -1,0 +1,19 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "green green green"
+    "yellow red blue"
+    "orange orange blue";
+}
+#green {
+    grid-area: green;
+}
+#yellow {
+    grid-area: yellow;
+}
+#red {
+    grid-area: red;
+}   
+#blue {
+    grid-area: blue;
+}
